@@ -1,6 +1,6 @@
 import streamlit as st
 
-st.title('2023 february Game Ranking')
+st.title('2023 february Game Ranking 🏆')
 
 st.header('MORE INFORMATION')
 
