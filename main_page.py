@@ -13,4 +13,9 @@ st.markdown('<a href="https://www.nexon.com/Home/Game">NEXON 상세 정보</a>',
 st.image('https://res.cloudinary.com/linkareer/image/fetch/f_auto,q_50/https://api.linkareer.com/attachments/44829')
 st.markdown('<a href="https://kr.ncsoft.com/kr/index.do">NCSOFT 상세 정보</a>', unsafe_allow_html=True)
 
+font_dirs = [os.getcwd() + '/customFonts']
+font_files = fm.findSystemFonts(fontpaths=font_dirs)
 
+for font_file in font_files:
+    fm.fontManager.addfont(font_file)
+fm._load_fontmanager(try_read_cache=False)
