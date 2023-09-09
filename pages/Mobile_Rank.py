@@ -41,3 +41,5 @@ if not options_genre and not options_service:
     st.dataframe(data1, use_container_width=True)
 else:
     st.dataframe(filtered_data, use_container_width=True)
+
+st.subheader('Copyright ⓒ ParkCheeze ALL RIGHTS RESERVED.')
