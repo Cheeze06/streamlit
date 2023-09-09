@@ -3,7 +3,7 @@ import pandas as pd
 
 st.title('2023년 2월 PC 게임 순위 🏆')
 
-path = 'C:\pythonproject\pages\Mobile.csv'
+path = 'pages/Mobile.csv'
 # CSV 파일을 데이터프레임으로 읽기
 data1 = pd.read_csv(path, encoding='cp949')
 
